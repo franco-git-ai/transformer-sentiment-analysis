@@ -1,0 +1,47 @@
+# Panoramica:
+    Il progetto utilizza i modelli Transformer (in particolare BERT) per analizzare e classificare il sentiment di un set di recensioni o testi, sfruttando le potenzialità del Natural Language Processing (NLP).
+
+# Contesto:
+    Analisi del sentiment e classificazione di testi con Deep Learning
+
+# Obiettivo:
+    Implementare, addestrare e valutare un modello basato su Transformer per predire il sentiment superando la soglia di accuratezza richiesta (>75%).
+
+# Focus:
+    Fine-tuning di modelli pre-addestrati, gestione dei token e valutazione delle metriche di performance
+
+# Obiettivo del progetto: 
+    Applicare l'architettura Transformer (`bert-base-uncased`) per risolvere un problema di classificazione del testo (sentiment analysis), gestendo la pipeline completa dal pre-processing dei dati fino all'inferenza e al superamento del target di accuratezza.
+
+    input → dataset testuali e recensioni
+    processo → tokenizzazione, fine-tuning e addestramento del modello
+    output → metriche di performance con accuratezza superiore al 75% e checkpoint ottimizzati
+
+# Files:
+    SentimentScope_starter.ipynb
+    sentiment_scope_checkpoint.pth
+    README.md
+    ...
+
+# Come procedere:
+    Il progetto si sviluppa all'interno del Jupyter Notebook principale, dove vengono eseguiti il caricamento dei dati, il fine-tuning del modello con PyTorch e Hugging Face, e la validazione finale per verificare il raggiungimento del target prestazionale.
+
+    SentimentScope_starter.ipynb → notebook principale con l'intera pipeline
+    | sentiment_scope_checkpoint.pth → checkpoint dei pesi del modello addestrato
+
+# Cosa ho imparato:
+    - Utilizzo dei modelli Transformer e della libreria Hugging Face
+    - Tecniche di tokenizzazione e fine-tuning di BERT
+    - Gestione e salvataggio dei pesi del modello per l'inferenza e il superamento dei target di accuratezza (>75%)
+
+
+## 📝 Nota sulla struttura del codice e indicazioni TODO
+I commenti e le istruzioni `TODO` presenti nei file sorgente sono stati intenzionalmente mantenuti a scopo educativo e metodologico. Testimoniano la struttura originale dell'esercitazione proposta nel corso Udacity e mostrano il percorso step-by-step seguito per l'implementazione del codice finale e il completamento del progetto.
+
+
+---
+## 👤 Autore
+Sviluppato da **Francesco Venale**  
+*Progetto realizzato nell'ambito del percorso di specializzazione in Artificial Intelligence / Deep Learning.*
+
+*Corso Udacity Nanodegree Future AWS AI Programmer.*
